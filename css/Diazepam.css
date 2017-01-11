@@ -1,8 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
-.T1 {margin-top: -20px}
+.T1 {margin-top: -20px;
+text-align: center}
 
-.T2 {margin-top:-25px;
+.T2 {margin-top:-20px;
 text-align: center;
 font-size: 25px}
 
@@ -19,5 +20,8 @@ margin-bottom:25px}
 .T6 {margin-top: 25px;
 margin-bottom: 25px;
 	text-align:center}
+#T6 {}
 
 .T7 {text-align:center; font-size:18px;}
+
+img.center{display: block; margin-left: auto; margin-right: auto;}
