@@ -10,6 +10,14 @@ font-size: 25px}
 .T3 {text-align:center;
 font-size:36px;}
 
+#T3 {border:solid;border-radius: 10px; border-width: 1px;border-color: #392E2E;
+text-align: left; font-size: 18px; background-color: antiquewhite;
+box-shadow:10px 10px 10px #828A00; }
+
+.image {margin-right: 25px ; float: left}
+
+.title {margin-top: -5px; font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif"; font-size: 25px}
+
 .T4{text-align:center;
 font-size:30px;}
 
@@ -20,7 +28,7 @@ margin-bottom:25px}
 .T6 {margin-top: 25px;
 margin-bottom: 25px;
 	text-align:center}
-#T6 {}
+#T6 {background-color: aliceblue; border-radius: 10px;}
 
 .T7 {text-align:center; font-size:18px;}
 
