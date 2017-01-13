@@ -3,23 +3,38 @@
 .T1 {margin-top: -20px;
 text-align: center}
 
-.T2 {margin-top:-20px;
+.T2 {margin-top:-22px;
 text-align: center;
 font-size: 25px}
+
+#T2 { font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";}
+
+#Home {background-color: lavender; border-radius: 3px}
+#AboutUs {background-color: lavender;border-radius: 3px}
+#Product {background-color: lavender;border-radius: 3px}
+#Cafe {background-color: lavender;border-radius: 3px}
+#Order {background-color: lavender;border-radius: 3px}
+#ContactUs {background-color: lavender;border-radius: 3px}
 
 .T3 {text-align:center;
 font-size:36px;}
 
 #T3 {border:solid;border-radius: 10px; border-width: 1px;border-color: #392E2E;
 text-align: left; font-size: 18px; background-color: antiquewhite;
-box-shadow:10px 10px 10px #828A00; }
+box-shadow:5px 5px 5px ;    }
 
-.image {margin-right: 25px ; float: left}
+.image {margin-left: 5px;margin-right: 20px ; float: left}
 
-.title {margin-top: -5px; font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif"; font-size: 25px}
+.title {margin-top: -5px; font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif"" sans-serif"; font-size: 28px}
 
 .T4{text-align:center;
 font-size:30px;}
+
+#T4{font-size: 25px; font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif"}
+
+#FBQS{border: groove; background-color:white ; color:black;border-radius: 3px}
+
+#FB{background-color:black; color:white ;border-radius: 3px}
 
 .T5 {font-size:20px;
 text-align:center;
@@ -27,16 +42,19 @@ margin-bottom:25px}
 
 .T6 {margin-top: 25px;
 margin-bottom: 25px;
-	text-align:center}
-#T6 {background-color: aliceblue; border-radius: 10px;}
+	text-align: center}
+#T6 {text-align:left;border:dotted #929603;  background-color:lightsalmon ; border-radius: 10px;}
 
-.T7 {
-	text-align: center;
-	font-size: 18px;
-}
-.T8{
-	text-align: left;
-	font-size: 18px;
-	margin-left: 300px;
-}
+.icon{margin-top: 2px ; margin-left: 10px; float: left}
+
+.icon1{margin-top:2px;margin-left: 10px;float: left}
+
+.icon2{margin-top: 2px;margin-left: 10px;  float: left}
+
+.T7 {text-align: center}
+
+
+
+
+
 img.center{display: block; margin-left: auto; margin-right: auto;}
