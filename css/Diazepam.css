@@ -1,29 +1,26 @@
 @charset "utf-8";
 /* CSS Document */
-.T1 {margin-top: -20px;
-text-align: center}
+.T1 {margin-bottom: -80px;margin-top: -48px}
 
-#menu {font-size: 25px;font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif"; text-align: center; margin-left: 145px; margin-top: -24px; }
+#menu {font-size: 25px;font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";align-items: center;  }
 
-#menu ul{ list-style-type: none;padding: 0px}
+#menu ul{ list-style-type: none;padding: 0px; text-align: center}
 
 #menu ul li{float: left;
-	width: 158px; height: 44px; text-align:; padding-top: 8px;border: 1px solid #617ADB;
-position: relative;background-color: lavender; border-radius: 3px}
+	width: 158px; height: 44px;  padding-top: 8px;border: 1px solid #617ADB;
+position: relative;background-color: lavender; border-radius: 3px;}
 #menu ul li ul li{width: 145px; height: 32px;; font-size: 16px}
 
-#submenu { display: none;
+.submenu { display: none;
 position: absolute;z-index: 90;}
 
-#menu li:hover #submenu{display: block}
+#menu li:hover .submenu{display: block}
 
 
-#Service{background-color: lavender;border-radius: 3px;margin-top: 11px; border-top: none}
-#Events{background-color: lavender;border-radius: 3px}
+.Service{background-color: lavender;border-radius: 3px;margin-top: 11px; border-top: none}
 
-.T3 {text-align:center;
-font-size:36px;border:solid;border-radius: 10px; border-width: 1px;border-color: #392E2E;
-text-align: left; font-size: 18px; background-color: antiquewhite;
+
+.T3 {font-size:36px;border:solid;border-radius: 10px; border-width: 1px;border-color: #392E2E; background-color: antiquewhite;
 box-shadow:4px 4px 4px ;margin-top: 100px; margin-bottom: 20px}
 
 

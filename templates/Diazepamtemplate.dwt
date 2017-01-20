@@ -21,18 +21,19 @@ body {
 <h1>
   <img src="../images/banner 5.jpg" width="956" height="221" class="center" alt=""/>
 </h1>
-	<div id="menu" align="center">
+	<table class="T1"
+	 align="center"><td><div id="menu">
 		<ul>
 			<li>Home</li>
 			<li>About Us
-				<ul id="submenu">
-					<li id="Service">Service</li>
-					<li id="Events">Events</li>
+				<ul class="submenu">
+					<li class="Service">Service</li>
+					<li>Events</li>
 				</ul>
 			</li>
 			<li>Products
-				<ul id="submenu">
-					<li id="Service">Ice cream scoop</li>
+				<ul class="submenu">
+					<li class="Service">Ice cream scoop</li>
 					<li>Waffle ice-cream</li>
 					<li>Ice-cream cake</li>
 					<li>Fried ice-cream</li>
@@ -41,7 +42,7 @@ body {
 			<li>Cafe</li>
 			<li>Order</li>
 			<li>Contact Us</li>
-		</ul></div>
+		</ul></div></td>
 
 	
 	<!-- TemplateBeginEditable name="EditRegion1" -->
@@ -57,8 +58,8 @@ body {
 	<td width="331"><img src="../images/facebook.png" width="44" height="44" class="icon" alt=""/><img src="../images/Twitter_logo.png" width="44" height="44" class="icon1" alt=""/><img src="../images/instagram-logo.jpg" width="44" height="44" class="icon2" alt=""/></td><td width="611"><a class="footer">       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Diazepam<br>
             &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;+65-44446677<br>
            &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Diazepam@gmail.com<br>
-		200, Diazepam Crescent, 100000 Singapore</td>
+	200, Diazepam Crescent, 100000 Singapore</a></td>
 </table>
 
-</body>
+	</table></body>
 </html>
