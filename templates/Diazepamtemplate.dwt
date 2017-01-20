@@ -21,21 +21,35 @@ body {
 <h1>
   <img src="../images/banner 5.jpg" width="956" height="221" class="center" alt=""/>
 </h1>
+	<div id="menu" align="center">
+		<ul>
+			<li>Home</li>
+			<li>About Us
+				<ul id="submenu">
+					<li id="Service">Service</li>
+					<li id="Events">Events</li>
+				</ul>
+			</li>
+			<li>Products
+				<ul id="submenu">
+					<li id="Service">Ice cream scoop</li>
+					<li>Waffle ice-cream</li>
+					<li>Ice-cream cake</li>
+					<li>Fried ice-cream</li>
+					<li>Ice-cream cookies</li>
+				</ul></li>
+			<li>Cafe</li>
+			<li>Order</li>
+			<li>Contact Us</li>
+		</ul></div>
 
-	<table class="T2" id="T2"  align="center" width="960" height="50" >
-	    <td id="Home"  width="160">Home</td>
-	    <td id="AboutUs" width="160">About Us</td>
-	    <td id="Product"  width="160">Products</td>
-	    <td id="Cafe" width="160">Cafe</td>
-	    <td id="Order" width="160">Order</td>
-	    <td id="ContactUs" width="160">Contact Us</td>
-    </table>
+	
 	<!-- TemplateBeginEditable name="EditRegion1" -->
 <table class="T3"  width="960" height="400" align="center">
     <td></td>
 </table>
 <!-- TemplateEndEditable -->
-<table class="T4" id="T4"  width="960" height="70" align="center">
+<table  id="T4"  width="960" height="70" align="center">
     <td id="FBQS" width="777">Would you like to drop us some feedback?</td>
     <td id="FB" width="171">Feedback</td>
 </table>
@@ -43,7 +57,7 @@ body {
 	<td width="331"><img src="../images/facebook.png" width="44" height="44" class="icon" alt=""/><img src="../images/Twitter_logo.png" width="44" height="44" class="icon1" alt=""/><img src="../images/instagram-logo.jpg" width="44" height="44" class="icon2" alt=""/></td><td width="611"><a class="footer">       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Diazepam<br>
             &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;+65-44446677<br>
            &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Diazepam@gmail.com<br>
-	200, Diazepam Crescent, 100000 Singapore</a></td>
+		200, Diazepam Crescent, 100000 Singapore</td>
 </table>
 
 </body>
