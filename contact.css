@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+#T3 tr td ul{
+	display:block;}
+#T3 tr td{
+	border-width:5px;
+	border-style:outset;
+	border-color:#FFF;
+	border-radius:5px;
+	box-shadow:3px 3px 3px #999999;}
+#T3 {
+	border-width:1px;
+	border-style:solid;
+	border-radius:10px;
+	box-shadow:10px 10px 10px #999999;
+	background-color:#FFF; }

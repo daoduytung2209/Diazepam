@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+	font-size:60px;
+	font-family:"Times New Roman", Times, serif;
+	color:#C63;
+	text-align:center;}
+#T3 tr td p{
+	font-size:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-left:30px;
+	text-indent:20px;
+	color:#000000;}
+#T4 tr td p img {text-align: center;}

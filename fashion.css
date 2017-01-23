@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+	font-size:60px;
+	font-family:"Times New Roman", Times, serif;
+	color:#C63;
+	text-align:center;}
+#T3 tr td p{
+	font-size:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-left:30px;
+	text-indent:20px;
+		color:#3C9;
+	}
+#T4 tr td p{
+	font-family:"Times New Roman", Times, serif;
+	font-size:25px;
+	text-indent:10px;
+	color:black;
+	}
+#T4{
+	border-style:outset;
+	border-width:5px;
+	border-radius:5px;
+	box-shadow:10px 10px 10px #999999 ;}
+#T4 tr td{text-align:left;}
+#T4 {
+	background-color:white;}

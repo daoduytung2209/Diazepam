@@ -32,7 +32,22 @@ position: absolute;z-index: 90;}
 	margin-bottom: 20px
 }
 
-
+table tr td a{
+	color:#C00;
+	text-decoration:none;}
+#N1{
+	border-style:solid;}
+table tr td a:hover{
+	text-decoration:underline;
+	color:#09F;}
+table tr td ul{ display:none;
+}
+table tr td:hover ul{
+	display:block}
+table tr td ul li{
+	font-size:20px;
+	color:#C00;
+	text-align:left;}
 
 
 #T4{text-align:center;
@@ -41,7 +56,26 @@ font-size:30px;font-size: 25px; font-family: Segoe, Segoe UI, DejaVu Sans, Trebu
 #FBQS{border: groove; background-color:white ; color:black;border-radius: 3px}
 
 #FB{background-color:black; color:white ;border-radius: 3px}
-
+#N7 tr td ul {
+	display:block;}
+#N7{
+	border-width:1px;
+	box-shadow:5px 5px 5px #666666;
+	border-radius:10px;
+	border-color:#000;
+	border-top-color:#333;
+	border-left-color:#333;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-top-style:solid;}
+#N7 tr td ul li {
+	font-size:30px;}
+#N7 tr td ul p {
+	font-size:25px;
+	text-indent:10px;}
+#N7 tr td ul #N8 li {
+	color:#000;
+	font-size:20px;}
 
 
 .T6 {margin-top: 25px;
