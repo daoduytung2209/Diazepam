@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+table tr td img{ border-width:1px;
+	border-style:solid;
+	border-radius:10px;
+	box-shadow:10px 10px 10px #999999;
+	background-color:#FFF; }
+#T3 tr td {
+	font-size:30px;
+	font-family:"Times New Roman", Times, serif;
+	text-align:center;
+	height:50px;
+	background-color:#DEF3CA;
+	border-bottom:#FFF;
+	border-bottom:inset;
+	border-right:inset;
+	border-top:inset;
+	border-left:inset;
+	}
+#T3 tr .N1{
+	font-size:50px;
+	color:#F00;
+	background-color:#0F0;}

@@ -19,6 +19,7 @@ position: absolute;z-index: 90;}
 
 .Service{background-color: lavender;border-radius: 3px;margin-top: 11px; border-top: none}
 
+<<<<<<< HEAD
 .pic { margin-top: 38px; margin-bottom: -3px}
 .T3 {font-size:36px;border:solid;border-radius: 10px; border-width: 1px;border-color: #392E2E; background-color: antiquewhite;
 box-shadow:4px 4px 4px ;margin-top: 100px; margin-bottom: 20px}
@@ -33,6 +34,37 @@ thead{ font-size: 28px}
 .image{ float: left; margin-left: 5px; margin-right: 18px}
 
 .imageIC { float: left; margin-left: 5px; margin-right: 18px; margin-top: 70px }
+=======
+
+.T3 {
+	font-size: 18px;
+	border: solid;
+	border-radius: 10px;
+	border-width: 1px;
+	border-color: #392E2E;
+	background-color: antiquewhite;
+	box-shadow: 4px 4px 4px;
+	margin-top: 100px;
+	margin-bottom: 20px
+}
+
+table tr td a{
+	color:#C00;
+	text-decoration:none;}
+#N1{
+	border-style:solid;}
+table tr td a:hover{
+	text-decoration:underline;
+	color:#09F;}
+table tr td ul{ display:none;
+}
+table tr td:hover ul{
+	display:block}
+table tr td ul li{
+	font-size:20px;
+	color:#C00;
+	text-align:left;}
+>>>>>>> origin/master
 
 #lastImage { margin-bottom: 80px}
 .title{ margin-top: -5px; font-family:Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif"" sans-serif"; font-size: 28px}
@@ -46,7 +78,26 @@ font-size:30px;font-size: 25px; font-family: Segoe, Segoe UI, DejaVu Sans, Trebu
 #FBQS{border: groove; background-color:white ; color:black;border-radius: 3px}
 
 #FB{background-color:black; color:white ;border-radius: 3px}
-
+#N7 tr td ul {
+	display:block;}
+#N7{
+	border-width:1px;
+	box-shadow:5px 5px 5px #666666;
+	border-radius:10px;
+	border-color:#000;
+	border-top-color:#333;
+	border-left-color:#333;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-top-style:solid;}
+#N7 tr td ul li {
+	font-size:30px;}
+#N7 tr td ul p {
+	font-size:25px;
+	text-indent:10px;}
+#N7 tr td ul #N8 li {
+	color:#000;
+	font-size:20px;}
 
 
 .T6 {margin-top: 25px;
