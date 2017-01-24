@@ -11,4 +11,7 @@ h1{
 	padding-left:30px;
 	text-indent:20px;
 	color:#000000;}
-#T4 tr td p img {text-align: center;}
+#T4 tr td p img { center;}
+h2{font-size: 30px;
+   color: mediumblue;
+text-align: center;}
