@@ -1,0 +1,111 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/Diazepamtemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="css/Diazepam.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body {
+	background-image: url(images/hd_wall_2405.jpg);
+	background-attachment: fixed;
+}
+</style>
+</head>
+
+<body>
+
+<h1>
+  <img src="images/banner%205.jpg" width="956" height="221" class="center" alt=""/>
+</h1>
+	<table class="T1"
+	 align="center"><td><div id="menu">
+		<ul>
+			<li>Home</li>
+			<li>About Us
+				<ul class="submenu">
+					<li class="Service">Service</li>
+					<li>Events</li>
+				</ul>
+			</li>
+			<li>Products
+				<ul class="submenu">
+					<li class="Service">Ice cream scoop</li>
+					<li>Waffle ice-cream</li>
+					<li>Ice-cream cake</li>
+					<li>Fried ice-cream</li>
+					<li>Ice-cream cookies</li>
+				</ul></li>
+			<li>Cafe</li>
+			<li>Order</li>
+			<li>Contact Us</li>
+		</ul></div></td>
+	</table>
+	
+	<!-- InstanceBeginEditable name="EditRegion1" -->
+
+ <table class="T3" id="productpage"  width="960" height="400" align="center">
+    <thead>
+		<th width="27%"></th>
+		<th width="38%">ITEM</th>
+		<th width="13%">PRICE&nbsp;</th>
+		<th width="9%"> QTY</th>
+    	<th width="12%"></th>
+		<th width="1%"></th></thead>
+    	<tbody>
+			  <td height="247"><a href="#" id="ICSlink" title="IceCreamScoop" target="_blank"><img src="images/ice cream2.jpg" width="300" height="250" alt="" id="ICSimage"/></a></td>
+         	<td align="center"><select id="ICSselect" onChange="checkICSSelect(); total();" style="font-size: 20px" >
+				<option value="Default" selected="selected">Ice Cream Scoop -Choose your flavour-</option>
+				<option value="Chocolate"> Chocolate</option>
+				<option value="Coffee"> Coffee</option>
+				<option value="GrapeNuts"> Grape Nuts</option>
+				<option value="Macchiato"> Macchiato</option>
+				<option value="OreoCrush"> Oreo Crush</option>
+				<option value="Vanilla"> Vanilla</option>
+				<option value="SweetCorn"> Sweet Corn</option>
+				<option value="SaltedCaramal"> Salted Caramal</option>
+			  </select></td>
+			  <td align="center" style="font-size: 50px">$<span ID="icsPrice">0</span></td>
+			  <td align="center"><input ID="icsQty" type="number" min="0" value="0" style= "width: 3em" onchange="total()"></td>
+			  <td><a href="order.html">
+			    <button type="submit" value="Reset" style="font-size: 20px">Reset</button>
+			  </a></td>
+	</tbody><script type="text/javascript" src="order.js"></script>
+		<tbody>
+		  <td height="275"><a href="#" ID="ProductLink" title="Waffle ice-cream" target="_blank"><img src="images/Waffle ice-cream4.jpg" alt="" width="300" height="250" ID="ProductImage"/></a></td>
+		  <td align="center"><select id="ProductSelect" onChange="checkProductSelect(); total();" style="font-size: 18px" >
+				<option value="WaffleIceCream" selected="selected">Waffe Ice-Cream</option>
+				<option value="IceCreamCake">Ice-Cream Cake</option>
+				<option value="FriedIceCream">Fried Ice-Cream</option>
+				<option value="IceCreamCookies">Ice-Cream Cookies</option>
+			  </select></td>
+			<td align="center" style="font-size: 50px">$<span ID="ProductPrice">7</span></td>
+			  <td align="center"><input ID="ProductQty" type="number" min="0" value="0" style="width: 3em" onchange="total()"></td>
+			<td><a href="order.html">
+			  <button type="submit" value="Reset" style="font-size: 20px">Reset</button>
+			</a></td></tbody>
+	  <tbody align="center"><th width="33%"></th><th width="34%" style="font-size: 45px"><p>TOTAL: $<span ID="toalPrice">0</span></p></th><th width="33%"></th></tbody>
+	  <tbody  style="font-size: 18px"><th width="20%"></th><th width="60%" style="text-align: left">Your Name : <input type="text" style="width: 18.4em" maxlength="30" align="right"></th><th width="20%"></th></tbody>
+	  <tbody  style="font-size: 18px"><th width="20%"></th><th width="60%" style="text-align: left">Shipping Addess : <input type="text" style="width: 15em" maxlength="50"></th><th width="20%"></th></tbody>
+	  <tbody  style="font-size: 18px"><th width="20%"></th><th width="60%" style="text-align: left">Phone Number : <input type="text" style="width: 16em" maxlength="50"></th><th width="20%"></th></tbody>
+	  <tbody  style="font-size: 18px"><th width="20%"></th><th width="60%" style="text-align:center"><p><button type="Submit" value="Order" style="font-size: 20px">Order</button></p></th></tbody>
+	   </table>
+		
+		
+<!-- InstanceEndEditable -->
+<table  id="T4"  width="960" height="70" align="center">
+    <td id="FBQS" width="777">Would you like to drop us some feedback?</td>
+    <td id="FB" width="171">Feedback</td>
+</table>
+<table class="T6" id="T6" width="960"  align="center" >
+	<td width="331"><img src="images/facebook.png" width="44" height="44" class="icon" alt=""/><img src="images/Twitter_logo.png" width="44" height="44" class="icon1" alt=""/><img src="images/instagram-logo.jpg" width="44" height="44" class="icon2" alt=""/></td><td width="611"><a class="footer">       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;Diazepam<br>
+            &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;+65-44446677<br>
+           &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Diazepam@gmail.com<br>
+	200, Diazepam Crescent, 100000 Singapore</a></td>
+</table>
+
+	</table></body>
+<!-- InstanceEnd --></html>
